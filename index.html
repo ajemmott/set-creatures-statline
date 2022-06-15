@@ -14657,7 +14657,7 @@ class ScryfallCardQuery_v2:
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>To make a query with this class you just have to import it and send the scryfall query string as an argument. Given i want to see the common and uncommon creatures in AFR then my query should be:</p>
-<p><code>type:creature set:afr (rarity:commont or r:uncommon) -is:rebalanced</code></p>
+<p><code>type:creature set:afr (rarity:common or r:uncommon) -is:rebalanced</code></p>
 <p>the last bit of the query is required to prevent the alchemy rebalanced version of cards from popping up in the results. In my code i used the shorthand version of this query but the results should be the same.</p>
 <p>In addition to this, i want this resulting data to be stored as a pandas DataFrame which is designed for data manipulation</p>
 
